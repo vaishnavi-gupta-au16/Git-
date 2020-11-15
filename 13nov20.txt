@@ -1,0 +1,47 @@
+what we will do
+1 we will create git hub account
+2 we will create git repository in cloud
+3 we will learn to clone a repository
+4 we will learn to do git push and git pull
+5 we will learn what are branches
+
+git hub - cloud provider
+for uploading - git push
+for downloading - git pull
+
+git clone url <https>-> will clone the repository to your local
+
+git log - 
+what is git log 
+
+1. git clone url -> it will for the first time clone the repository from cloud to your local
+
+2. the command to push your chnages to local to cloud
+
+git push origin <branch_name>
+you are by default initially in master brANCH
+git branch // will tell you the name of your current branch
+1. we did git clone
+2. make all of your commits in the repositiry
+3 now if you want to push these change back to the cloud you will use
+git branch
+git push origin <branch_name>
+
+
+git branch <branch_name>
+this command will create a branch with name branch_name
+git checkout <branch_name> -> to switch the branch and it will send you to the top of the particular branch
+git merge <branch_name> this will merge branch <branch_name> into master.
+to merge a branch 
+
+go to destination branch in which you want to merge
+
+git checkout master
+git merge <branch_name_you_want_to_merge>
+
+
+git branch -D branch_name -> to delete the branch
+git push origin dev,masster,anything
+
+
+
