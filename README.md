@@ -1,2 +1,1 @@
-# Git-
-A dummy repositiory is created 
+i add some content on it
